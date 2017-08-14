@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## Load ##\n\n#Takes care of loading in all the data required. \n#Typically this is a short file, reading in data from files, URLs and/or ODBC.\n#Depending on the project at this point I'll either write out the workspace\n#using save() or just keep things in memory for the next step.\n\n## laod in packages (quant)\n\n\n## load in timeseries (SANDP)",
+    "created" : 1502719586630.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2074130526",
+    "id" : "65EFA3C8",
+    "lastKnownWriteTime" : 1502719902,
+    "last_content_update" : 1502719902226,
+    "path" : "~/Desktop/BasicStrategy/Load.R",
+    "project_path" : "Load.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
