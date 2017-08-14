@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## Load ##\n\n# change #",
+    "created" : 1502702830758.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2404145650",
+    "id" : "3A37F31E",
+    "lastKnownWriteTime" : 1502719316,
+    "last_content_update" : 1502719316610,
+    "path" : "~/Desktop/BasicStrategy/Load.R",
+    "project_path" : "Load.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
