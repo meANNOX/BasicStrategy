@@ -8,4 +8,18 @@
 ## laod in packages (quant)
 
 
-## load in timeseries (SANDP)
+## load in timeseries (S&P)
+
+## clean: modify the format 
+
+## func
+
+## do
+
+## perform forecasting for a given time t
+
+## combine forecasting for strategy A and B,
+##to give weights 45% and 55% perhaps with induced leveraging
+
+
+

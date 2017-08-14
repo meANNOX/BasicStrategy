@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "## Clean ##\n\n#This is where all the ugly stuff lives - \n#taking care of missing values, merging data frames, handling outliers.",
+    "contents" : "## Clean ##\n\n#This is where all the ugly stuff lives - \n#taking care of missing values, merging data frames, handling outliers.\n\n",
     "created" : 1502719861735.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "400147773",
+    "hash" : "3657792051",
     "id" : "CBDD2BCF",
-    "lastKnownWriteTime" : 1502719878,
-    "last_content_update" : 1502719878216,
+    "lastKnownWriteTime" : 1502738851,
+    "last_content_update" : 1502738851410,
     "path" : "~/Desktop/BasicStrategy/Clean.R",
     "project_path" : "Clean.R",
     "properties" : {
