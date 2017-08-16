@@ -7,12 +7,29 @@
 
 ## laod in packages (quant)
 
+install.packages("quantmod")
+install.packages("jsonlite")
 
+library("jsonlite")
+library("quantmod")
+
+?getSymbols
+getFX("EUR/USD")
+EURUSD
+
+
+<- getSymbols("MSFT")
+getFX("EURUSD")
+
+
+class(EURUSD)
+
+plot(EURUSD)
 ## load in timeseries (S&P)
 
 ## clean: modify the format 
 
-## func
+## func: functions, should include a
 
 ## do
 
