@@ -9,22 +9,43 @@
 
 install.packages("quantmod")
 install.packages("jsonlite")
-
+install.packages("Quandl")
+install.packages("ggplot2")
+#   ________________________________________________________
+#   Load in data                                            ####
+# this is a level 1 section. l1 sections are are high-level 
+# blocks.
 library("jsonlite")
 library("quantmod")
-
-?getSymbols
-getFX("EUR/USD")
-EURUSD
+library(Quandl)
+library("ggplot2")
 
 
-<- getSymbols("MSFT")
-getFX("EURUSD")
+Quandl.api_key("7z5ifJjJ4baqE2u5eyg2")
+# set input data
+
+begin_date <- "2003-01-01"
+end_date <- "2013-01-01"
+
+# get list of instrument uids
 
 
-class(EURUSD)
+#
 
-plot(EURUSD)
+
+# Retrieve timeseries from instrument uics
+mydata <- Quandl("OPEC/ORB", start_date="2003-01-01", end_date = "2013-01-01")
+data <- Quandl("OPEC/ORB", , start_date="2003-01-01", end_date = "2013-01-01", 
+               collapse = "quarterly", type = "zoo", limit = 3)
+
+
+## load in various time series, and etf should have +5 years data, weekly
+
+## do a forecast at a time ## perhaps for all timeseries simultaniously?
+
+## use optimizations
+
+
 ## load in timeseries (S&P)
 
 ## clean: modify the format 
