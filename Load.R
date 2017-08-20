@@ -27,6 +27,7 @@ library("caTools")
 library("data.table")
 library("TTR")
 
+
 Quandl.api_key("7z5ifJjJ4baqE2u5eyg2")
 # set input data
 
@@ -47,7 +48,27 @@ data <- as.data.table(data)
 
 plot(data)
 
+## do exponential moving average
 
+plot(data)
+
+L_fast <- 16
+L_slow <- 4*L_fast
+
+raw_forecast <- EMA(data,L_fast) - EMA(data,L_slow)
+plot(raw_forecast)
+
+## do gg plot of this version... 
+
+
+plot(as.xts(data))
+plot(EMA(data,L_fast))
+plot(EMA(data,L_slow))
+
+#forecast
+plot(EMA(data,4)-EMA(data,128))
+
+?EMA
 ## or alternatively stationize series and do a version of ar
 
 ## 
